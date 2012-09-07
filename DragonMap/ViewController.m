@@ -7,8 +7,27 @@
 //
 
 #import "ViewController.h"
+#import "ZoomView.h"
 
 @implementation ViewController
+
+- (IBAction)ViewMap:(id)sender {
+    //Define the new view controller and display it
+    ZoomView *viewcontroller = [[ZoomView alloc] initWithNibName:@"ZoomView" bundle:nil];
+    [self presentModalViewController:viewcontroller animated:YES];
+}
+
+- (IBAction)Search:(id)sender{
+    //Define Search View Controller
+}
+
+- (IBAction)DirectoryListing:(id)sender {
+    //Define Directory Listing Controller
+}
+
+- (IBAction)About:(id)sender{
+    //Define About Controller
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -54,11 +73,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-    } else {
-        return YES;
-    }
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 @end
