@@ -1,0 +1,470 @@
+TDragonMap
+v4
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/DragonMap.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/Info.plist DragonMap/DragonMap-Info.plist
+cProcessPCH /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-eslkygtrklxayaefikbzdkubkxmj/DragonMap-Prefix.pch.pth DragonMap/DragonMap-Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-chdwpelpvdnjcnggfielhpwcdpwv/DragonMap-Prefix.pch.pth DragonMap/DragonMap-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/main.o /Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/AppDelegate.o /Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/ViewController.o /Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/main.o /Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/AppDelegate.o /Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/ViewController.o /Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/DragonMap normal armv6
+cLd /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/DragonMap normal armv7
+cCreateUniversalBinary /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/DragonMap normal "armv6 armv7"
+cGenerateDSYMFile /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app.dSYM /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/DragonMap
+cCopyStringsFile /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/en.lproj/InfoPlist.strings DragonMap/en.lproj/InfoPlist.strings
+cCompileXIB /Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPhone.xib
+cCompileXIB /Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPad.xib
+cCpResource DragonMap/FishImage.jpeg build/Debug-iphoneos/DragonMap.app/FishImage.jpeg
+cProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/57E235D7-C821-4924-84DA-92D9D98100BA.mobileprovision" /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/57E235D7-C821-4924-84DA-92D9D98100BA.mobileprovision" /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/embedded.mobileprovision
+cTouch /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap.xcent
+cCodeSign /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+c000000004E5C595800000000000001A7
+t1314675032
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004E5C595800000000000001E5
+t1314675032
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F28700000000003AB0A0
+t1316156039
+s3846304
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7808C7000000000078BE50
+t1316489415
+s7913040
+
+N/Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.m
+c000000004FD245360000000000000A79
+t1339180342
+s2681
+
+N/Users/Admin/Desktop/Mark/DragonMap/DragonMap/DragonMap-Prefix.pch
+c000000004FD245360000000000000141
+t1339180342
+s321
+
+N/Users/Admin/Desktop/Mark/DragonMap/DragonMap/FishImage.jpeg
+c000000004FD246AD0000000000062BA2
+t1339180717
+s404386
+
+N/Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.m
+c000000004FD245360000000000000527
+t1339180342
+s1319
+
+N/Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/InfoPlist.strings
+c000000004FD24536000000000000002D
+t1339180342
+s45
+
+N/Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPad.xib
+c000000004FD245360000000000001454
+t1339180342
+s5204
+
+N/Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPhone.xib
+c000000004FD247420000000000001991
+t1339180866
+s6545
+
+N/Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.m
+c000000004FD245360000000000000158
+t1339180342
+s344
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app.dSYM
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/DragonMap
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/FishImage.jpeg
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/Info.plist
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/PkgInfo
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/ResourceRules.plist
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/en.lproj/ViewController_iPad.nib
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/en.lproj/ViewController_iPhone.nib
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap.xcent
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/AppDelegate.o
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/DragonMap
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/DragonMap.LinkFileList
+c000000004FD247430000000000000170
+t1339180867
+s368
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/ViewController.o
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/DragonMap
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/DragonMap.LinkFileList
+c000000004FD247430000000000000170
+t1339180867
+s368
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/Admin/Library/MobileDevice/Provisioning Profiles/57E235D7-C821-4924-84DA-92D9D98100BA.mobileprovision
+c000000004F9AEE7800000000000059A3
+t1335553656
+s22947
+
+N/var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-cbbbrcjqctimaodytxikpaqdytyq/DragonMap-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-chdwpelpvdnjcnggfielhpwcdpwv/DragonMap-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-eslkygtrklxayaefikbzdkubkxmj/DragonMap-Prefix.pch.pth
+t2
+s0
+
+NDragonMap/DragonMap-Info.plist
+c000000004FD247420000000000000593
+t1339180866
+s1427
+
+CBuild AST from /Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.m
+r0
+
+CBuild AST from /Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.m
+r0
+
+CBuild AST from /Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5f7d20c37e82b541^225548c37e82b541^---0#1#0#--18"Check dependencies36"911A3848-9C52-44BE-8005-9C923301E198-
+
+CCodeSign /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app
+s360873672.451845
+e360873672.875024
+r1
+xCodeSign
+x/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"CodeSign build/Debug-iphoneos/DragonMap.app76c273c87e82b541^2503e0c87e82b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/0000000000000000^693"CodeSign build/Debug-iphoneos/DragonMap.app    cd /Users/Admin/Desktop/Mark/DragonMap    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Developer: Mark Koh (5Q98XWH5SZ)" --resource-rules=/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/ResourceRules.plist --entitlements /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap.xcent /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app36"6D217CA5-96C8-485F-8D3D-BB4499465121-
+
+CCompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/AppDelegate.o /Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360873668.415951
+e360873668.879757
+r1
+xCompileC
+xbuild/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/AppDelegate.o
+x/Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.mada76ac47e82b541^8445e1c47e82b541^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.m0000000000000000^2477"CompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/AppDelegate.o DragonMap/AppDelegate.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Desktop/Mark/DragonMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.2 -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-generated-files.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-own-target-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-all-target-headers.hmap -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-project-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/include -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources/armv6 -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources -F/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos -include /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-eslkygtrklxayaefikbzdkubkxmj/DragonMap-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/AppDelegate.d -c /Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.m -o /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/AppDelegate.o36"42B0414B-EAE0-4F43-8481-15A7DF87B449-
+
+CCompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/ViewController.o /Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360873668.867804
+e360873669.204138
+r1
+xCompileC
+xbuild/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/ViewController.o
+x/Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.m795adec47e82b541^0c5634c57e82b541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.m0000000000000000^2492"CompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/ViewController.o DragonMap/ViewController.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Desktop/Mark/DragonMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.2 -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-generated-files.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-own-target-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-all-target-headers.hmap -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-project-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/include -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources/armv6 -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources -F/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos -include /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-eslkygtrklxayaefikbzdkubkxmj/DragonMap-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/ViewController.d -c /Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.m -o /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/ViewController.o36"0A752612-8284-47C8-8F49-520512A0A618-
+
+CCompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/main.o /Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360873668.265975
+e360873668.866556
+r1
+xCompileC
+xbuild/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/main.o
+x/Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.mf73f44c47e82b541^08e5ddc47e82b541^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.m0000000000000000^2442"CompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/main.o DragonMap/main.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Desktop/Mark/DragonMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.2 -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-generated-files.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-own-target-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-all-target-headers.hmap -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-project-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/include -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources/armv6 -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources -F/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos -include /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-eslkygtrklxayaefikbzdkubkxmj/DragonMap-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/main.d -c /Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.m -o /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/main.o36"E661D440-D5CE-4174-B208-3005371A24F6-
+
+CCompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/AppDelegate.o /Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360873668.990701
+e360873669.211469
+r1
+xCompileC
+xbuild/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/AppDelegate.o
+x/Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.m59c3fdc47e82b541^b32636c57e82b541^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.m0000000000000000^2477"CompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/AppDelegate.o DragonMap/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Desktop/Mark/DragonMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.2 -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-generated-files.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-own-target-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-all-target-headers.hmap -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-project-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/include -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources/armv7 -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources -F/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos -include /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-chdwpelpvdnjcnggfielhpwcdpwv/DragonMap-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/AppDelegate.d -c /Users/Admin/Desktop/Mark/DragonMap/DragonMap/AppDelegate.m -o /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/AppDelegate.o36"05F023AD-216A-41A4-84A5-1E8ABDDD77CC-
+
+CCompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/ViewController.o /Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360873669.205412
+e360873669.482765
+r1
+xCompileC
+xbuild/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/ViewController.o
+x/Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.me5b734c57e82b541^89977bc57e82b541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.m0000000000000000^2492"CompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/ViewController.o DragonMap/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Desktop/Mark/DragonMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.2 -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-generated-files.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-own-target-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-all-target-headers.hmap -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-project-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/include -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources/armv7 -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources -F/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos -include /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-chdwpelpvdnjcnggfielhpwcdpwv/DragonMap-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/ViewController.d -c /Users/Admin/Desktop/Mark/DragonMap/DragonMap/ViewController.m -o /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/ViewController.o36"6FCDE82B-7375-4A54-98E2-F01898C9B908-
+
+CCompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/main.o /Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360873668.881019
+e360873668.989427
+r1
+xCompileC
+xbuild/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/main.o
+x/Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.m21b1e1c47e82b541^185afdc47e82b541^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.m0000000000000000^2442"CompileC build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/main.o DragonMap/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Desktop/Mark/DragonMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.2 -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-generated-files.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-own-target-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-all-target-headers.hmap -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-project-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/include -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources/armv7 -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources -F/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos -include /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-chdwpelpvdnjcnggfielhpwcdpwv/DragonMap-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/main.d -c /Users/Admin/Desktop/Mark/DragonMap/DragonMap/main.m -o /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/main.o36"AF20BF83-A4AB-4535-A46D-9BD3CF945DF0-
+
+CCompileXIB /Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPad.xib
+s360873671.131208
+e360873672.356555
+r1
+xCompileXIB
+x/Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPad.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compiling /Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPad.xib05c321c77e82b541^da565bc87e82b541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPad.xib0000000000000000^693"CompileXIB DragonMap/en.lproj/ViewController_iPad.xib    cd /Users/Admin/Desktop/Mark/DragonMap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/en.lproj/ViewController_iPad.nib /Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"22A0D7A6-5A38-4ACC-9234-B659DB8DD597-
+
+CCompileXIB /Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPhone.xib
+s360873671.126441
+e360873672.359501
+r1
+xCompileXIB
+x/Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPhone.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compiling /Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPhone.xibac7320c77e82b541^6c0a5cc87e82b541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPhone.xib0000000000000000^699"CompileXIB DragonMap/en.lproj/ViewController_iPhone.xib    cd /Users/Admin/Desktop/Mark/DragonMap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/en.lproj/ViewController_iPhone.nib /Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/ViewController_iPhone.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"4BD8A423-34FF-4F4E-9FE7-24707BD44135-
+
+CCopyStringsFile /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/en.lproj/InfoPlist.strings DragonMap/en.lproj/InfoPlist.strings
+s360873671.125867
+e360873671.130005
+r1
+xCopyStringsFile
+x/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/en.lproj/InfoPlist.strings
+xDragonMap/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy DragonMap/en.lproj/InfoPlist.stringsb45a20c77e82b541^fe4821c77e82b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Admin/Desktop/Mark/DragonMap/DragonMap/en.lproj/InfoPlist.strings0000000000000000^492"CopyStringsFile build/Debug-iphoneos/DragonMap.app/en.lproj/InfoPlist.strings DragonMap/en.lproj/InfoPlist.strings    cd /Users/Admin/Desktop/Mark/DragonMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/en.lproj -- DragonMap/en.lproj/InfoPlist.strings36"C9007637-D2D3-4E50-B8CE-66EE4E7D83BA-
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/DragonMap.app/ResourceRules.plist
+s360873667.314175
+e360873667.335843
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/DragonMap.app/ResourceRules.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/DragonMap.app/ResourceRules.plist20d550c37e82b541^470556c37e82b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/ResourceRules.plist00f85009dcffdf42^596"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/DragonMap.app/ResourceRules.plist    cd /Users/Admin/Desktop/Mark/DragonMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app36"7636B168-D78D-442C-AFCF-7A363B219072-
+
+CCpResource DragonMap/FishImage.jpeg build/Debug-iphoneos/DragonMap.app/FishImage.jpeg
+s360873672.357978
+e360873672.369594
+r1
+xCpResource
+xDragonMap/FishImage.jpeg
+xbuild/Debug-iphoneos/DragonMap.app/FishImage.jpeg
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphoneos/DragonMap.app/FishImage.jpege0bd5bc87e82b541^6ea25ec87e82b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/FishImage.jpeg00f85009dcffdf42^497"CpResource DragonMap/FishImage.jpeg build/Debug-iphoneos/DragonMap.app/FishImage.jpeg    cd /Users/Admin/Desktop/Mark/DragonMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Desktop/Mark/DragonMap/DragonMap/FishImage.jpeg /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app36"B4A1CB9C-6600-435E-80ED-A49A305C5B5B-
+
+CCreateUniversalBinary /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/DragonMap normal "armv6 armv7"
+s360873670.954587
+e360873671.016143
+r1
+xCreateUniversalBinary
+x/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/DragonMap
+xnormal
+xarmv6 armv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Create universal binary /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/DragonMapbc77f4c67e82b541^bb2604c77e82b541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/DragonMap00f85009dcffdf42^610"CreateUniversalBinary build/Debug-iphoneos/DragonMap.app/DragonMap normal "armv6 armv7"    cd /Users/Admin/Desktop/Mark/DragonMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/DragonMap /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/DragonMap -output /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/DragonMap36"A4FBE77A-9279-4803-96F9-2FEFDB70760F-
+
+CGenerateDSYMFile /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app.dSYM /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/DragonMap
+s360873671.017849
+e360873671.122702
+r1
+xGenerateDSYMFile
+x/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app.dSYM
+x/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/DragonMap
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Generating /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app.dSYM4ab404c77e82b541^946a1fc77e82b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app.dSYM00f85009dcffdf42^461"GenerateDSYMFile build/Debug-iphoneos/DragonMap.app.dSYM build/Debug-iphoneos/DragonMap.app/DragonMap    cd /Users/Admin/Desktop/Mark/DragonMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/DragonMap -o /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app.dSYM36"A1D98D9A-7E78-4698-8E09-353753CD64B2-
+
+CLd /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/DragonMap normal armv6
+r0
+
+CLd /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/DragonMap normal armv7
+r0
+
+CLd /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/DragonMap normal armv6
+s360873669.212795
+e360873670.951449
+r1
+xLd
+x/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/DragonMap
+xnormal
+xarmv6
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/DragonMap679c36c57e82b541^eca3f3c67e82b541^---0#0#0#--965"Ld build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/DragonMap normal armv6    cd /Users/Admin/Desktop/Mark/DragonMap    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos -F/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos -filelist /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/DragonMap.LinkFileList -dead_strip -fobjc-arc -miphoneos-version-min=4.2 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv6/DragonMap36"A3AE011A-9697-4A16-B8E0-A111A6614236-
+
+CLd /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/DragonMap normal armv7
+s360873669.484381
+e360873670.953009
+r1
+xLd
+x/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/DragonMap
+xnormal
+xarmv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/DragonMape3197cc57e82b541^7ffaf3c67e82b541^---0#0#0#--965"Ld build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/DragonMap normal armv7    cd /Users/Admin/Desktop/Mark/DragonMap    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos -F/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos -filelist /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/DragonMap.LinkFileList -dead_strip -fobjc-arc -miphoneos-version-min=4.2 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/Objects-normal/armv7/DragonMap36"E6EAA162-D7A3-4834-A35B-7FC13987A879-
+
+CProcessInfoPlistFile /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/Info.plist DragonMap/DragonMap-Info.plist
+s360873667.316690
+e360873667.336955
+r1
+xProcessInfoPlistFile
+x/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/Info.plist
+xDragonMap/DragonMap-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process DragonMap/DragonMap-Info.plistf45251c37e82b541^e94456c37e82b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Admin/Desktop/Mark/DragonMap/DragonMap/DragonMap-Info.plist0000000000000000^666"ProcessInfoPlistFile build/Debug-iphoneos/DragonMap.app/Info.plist DragonMap/DragonMap-Info.plist    cd /Users/Admin/Desktop/Mark/DragonMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DragonMap/DragonMap-Info.plist -genpkginfo /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/ResourceRules.plist -o /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/Info.plist36"EF607F13-D2A0-44DF-A433-26899FCC0A4F-
+
+CProcessPCH /Users/Admin/Desktop/Mark/DragonMap/DerivedData/DragonMap/Index/PrecompiledHeaders/DragonMap-Prefix-agfylrfsmzxvhualhcztwzvtqayb_ast/DragonMap-Prefix.pch.pth DragonMap/DragonMap-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Admin/Desktop/Mark/DragonMap/DerivedData/DragonMap/Index/PrecompiledHeaders/DragonMap-Prefix-dtxkdizlaujobqckgrabvijsgquh_ast/DragonMap-Prefix.pch.pth DragonMap/DragonMap-Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Admin/Desktop/Mark/DragonMap/DerivedData/DragonMap/Index/PrecompiledHeaders/DragonMap-Prefix-ekxkhurhurngpmduumpzffydrldd_ast/DragonMap-Prefix.pch.pth DragonMap/DragonMap-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-cbbbrcjqctimaodytxikpaqdytyq/DragonMap-Prefix.pch.pth DragonMap/DragonMap-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-chdwpelpvdnjcnggfielhpwcdpwv/DragonMap-Prefix.pch.pth DragonMap/DragonMap-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360873667.340697
+e360873668.414580
+r1
+xProcessPCH
+x/var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-chdwpelpvdnjcnggfielhpwcdpwv/DragonMap-Prefix.pch.pth
+xDragonMap/DragonMap-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile DragonMap/DragonMap-Prefix.pch736657c37e82b541^d1236ac47e82b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Admin/Desktop/Mark/DragonMap/DragonMap/DragonMap-Prefix.pch0000000000000000^2495"ProcessPCH /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-chdwpelpvdnjcnggfielhpwcdpwv/DragonMap-Prefix.pch.pth DragonMap/DragonMap-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Desktop/Mark/DragonMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.2 -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-generated-files.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-own-target-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-all-target-headers.hmap -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-project-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/include -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources/armv7 -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources -F/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos -c /Users/Admin/Desktop/Mark/DragonMap/DragonMap/DragonMap-Prefix.pch -o /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-chdwpelpvdnjcnggfielhpwcdpwv/DragonMap-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-chdwpelpvdnjcnggfielhpwcdpwv/DragonMap-Prefix.pch.d36"C93A5A33-296F-48D7-B94F-8AC0FE9DB34F-
+
+CProcessPCH /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-eslkygtrklxayaefikbzdkubkxmj/DragonMap-Prefix.pch.pth DragonMap/DragonMap-Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360873667.340508
+e360873668.263957
+r1
+xProcessPCH
+x/var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-eslkygtrklxayaefikbzdkubkxmj/DragonMap-Prefix.pch.pth
+xDragonMap/DragonMap-Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile DragonMap/DragonMap-Prefix.pchf16857c37e82b541^969443c47e82b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Admin/Desktop/Mark/DragonMap/DragonMap/DragonMap-Prefix.pch0000000000000000^2495"ProcessPCH /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-eslkygtrklxayaefikbzdkubkxmj/DragonMap-Prefix.pch.pth DragonMap/DragonMap-Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Desktop/Mark/DragonMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.2 -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-generated-files.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-own-target-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-all-target-headers.hmap -iquote /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap-project-headers.hmap -I/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/include -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources/armv6 -I/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DerivedSources -F/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos -c /Users/Admin/Desktop/Mark/DragonMap/DragonMap/DragonMap-Prefix.pch -o /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-eslkygtrklxayaefikbzdkubkxmj/DragonMap-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/Om/Om3CHfGRFr4e0t3BH-i8lU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragonMap-Prefix-eslkygtrklxayaefikbzdkubkxmj/DragonMap-Prefix.pch.d36"90C16761-C0C7-429B-A33E-D95BAC56FF68-
+
+CProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/57E235D7-C821-4924-84DA-92D9D98100BA.mobileprovision" /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/embedded.mobileprovision
+s360873672.381228
+e360873672.385009
+r1
+xProcessProductPackaging
+x/Users/Admin/Library/MobileDevice/Provisioning Profiles/57E235D7-C821-4924-84DA-92D9D98100BA.mobileprovision
+x/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/embedded.mobileprovision
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection194"ProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/57E235D7-C821-4924-84DA-92D9D98100BA.mobileprovision" build/Debug-iphoneos/DragonMap.app/embedded.mobileprovision42b161c87e82b541^329162c87e82b541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/embedded.mobileprovision0000000000000000^608"ProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/57E235D7-C821-4924-84DA-92D9D98100BA.mobileprovision" build/Debug-iphoneos/DragonMap.app/embedded.mobileprovision    cd /Users/Admin/Desktop/Mark/DragonMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/Admin/Library/MobileDevice/Provisioning Profiles/57E235D7-C821-4924-84DA-92D9D98100BA.mobileprovision" -o /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app/embedded.mobileprovision36"D7CD42BE-887F-4756-8912-4D9F9ECF33CC-
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap.xcent
+s360873672.400232
+e360873672.448660
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+x/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap.xcent
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap.xcent488c66c87e82b541^e4dc72c87e82b541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap.xcent00f85009dcffdf42^608"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap.xcent    cd /Users/Admin/Desktop/Mark/DragonMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/Admin/Desktop/Mark/DragonMap/build/DragonMap.build/Debug-iphoneos/DragonMap.build/DragonMap.xcent36"D4AF3A71-372B-4862-89E5-7946D789E443-
+
+CTouch /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app
+s360873672.387977
+e360873672.397252
+r1
+xTouch
+x/Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Touch /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.appf96663c87e82b541^ddb465c87e82b541^---0#0#0#--301"Touch build/Debug-iphoneos/DragonMap.app    cd /Users/Admin/Desktop/Mark/DragonMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Admin/Desktop/Mark/DragonMap/build/Debug-iphoneos/DragonMap.app36"FA3A23BE-A27C-4DF0-AE6A-CCD0E57B6C87-
+
